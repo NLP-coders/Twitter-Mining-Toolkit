@@ -1,10 +1,7 @@
+from config import Config
 import mysql.connector
-from 
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  password="yourpassword"
-)
+#Creat mysql connection 
+#db = mysql.connector.connect(host=Config.host , user = Config.user, password = Config.password)
 
-print(mydb)
+print("In main script")
